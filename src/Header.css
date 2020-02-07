@@ -1,0 +1,15 @@
+
+.navbar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    text-transform: capitalize;
+  }
+.navbar-light .navbar-text{
+    color:white;
+    padding: 0;
+  }
+  .navbar-light .navbar-brand{
+      padding:0;
+  }
