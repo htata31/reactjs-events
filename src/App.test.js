@@ -1,9 +1,21 @@
+import enzyme, {shallow } from 'enzyme';
+import enzymeAdapterReact16 from 'enzyme-adapter-react-16';
 import React from 'react';
-import { render } from '@testing-library/react';
+import toJson from 'enzyme-to-json';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+enzyme.configure({ adapter: new enzymeAdapterReact16(), });
+
+function getAppShallowWrapper() {
+  return shallow(
+    <App />
+  );
+}
+describe('The HomePage component', () => {
+  test('Taking a snapshot of the app component', () => {
+    const appWrapper = getAppShallowWrapper();
+
+    expect(toJson(appWrapper)).toMatchSnapshot();
+  });
+
 });

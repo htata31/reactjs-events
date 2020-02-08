@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header component Taking a snapshot of the header 1`] = `
+<Navbar
+  className="bg-dark justify-content-between"
+  collapseOnSelect={false}
+  expand={true}
+  id="navbar"
+  sticky="top"
+  variant="light"
+>
+  <NavbarBrand
+    href="https://www.call-em-all.com/"
+  >
+    <img
+      alt="Call-Em-All Logo"
+      id="call-em-all-logo"
+      src="Images/Call-Em-All-logo.png"
+    />
+  </NavbarBrand>
+  <NavbarText
+    className="navbar-title"
+  >
+     
+    React Bootstrap Meetup Application
+  </NavbarText>
+  <NavbarBrand
+    href="https://www.meetup.com/"
+  >
+    <img
+      alt="Meetup Logo"
+      id="meetup-logo"
+      src="Images/meetup_logo.png"
+    />
+  </NavbarBrand>
+</Navbar>
+`;

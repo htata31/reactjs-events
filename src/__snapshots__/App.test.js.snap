@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The HomePage component Taking a snapshot of the app component 1`] = `
+<div>
+  <Header
+    title="React Bootstrap Meetup Application"
+  />
+  <Homepage
+    contacts={Array []}
+  />
+</div>
+`;
