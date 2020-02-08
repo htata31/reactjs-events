@@ -9,7 +9,7 @@ class App extends Component{
     contacts: []
   }
   componentDidMount() {
-    fetch('http://jsonplaceholder.typicode.com/users')
+    fetch('https://jsonplaceholder.typicode.com/users')
     .then(res => res.json())
     .then((data) => {
       this.setState({ contacts: data })
