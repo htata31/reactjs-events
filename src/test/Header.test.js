@@ -2,7 +2,7 @@ import enzyme, { shallow } from 'enzyme';
 import enzymeAdapterReact16 from 'enzyme-adapter-react-16';
 import React from 'react';
 import toJson from 'enzyme-to-json';
-import Header from './Header'
+import Header from '../components/Header'
 
 
 enzyme.configure({ adapter: new enzymeAdapterReact16(), });
