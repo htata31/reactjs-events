@@ -11,7 +11,7 @@ function getAppShallowWrapper() {
     <App />
   );
 }
-describe('The HomePage component', () => {
+describe('The App component', () => {
   test('Taking a snapshot of the app component', () => {
     const appWrapper = getAppShallowWrapper();
 
