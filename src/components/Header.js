@@ -3,7 +3,10 @@ import './bootstrap.min.css';
 import './Header.css'
 import { Navbar } from 'react-bootstrap';
 
-
+/**
+ * Used Navbar to display the header, Call-Em-All and Meetup logo.
+ * Clicking on the logo will redirect to their respective Websites
+ */
 class Header extends Component {
     render(){
         return (

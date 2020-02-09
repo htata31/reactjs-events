@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import './bootstrap.min.css';
 import './Homepage.css'
 
+/**
+ * Displaying the contact Name, Email and the company phrase from the contact props sent from the parent "App" component .
+ */
 
 class Homepage extends Component {
     render(){
